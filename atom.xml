@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://shoka.saiodgm.gq</id>
+    <id>http://blog.saiodgm.gq</id>
     <title>Saiodgmの小窝</title>
     <subtitle>QwQ</subtitle>
-    <icon>http://shoka.saiodgm.gq/images/favicon.ico</icon>
-    <link href="http://shoka.saiodgm.gq" />
+    <icon>http://blog.saiodgm.gq/images/favicon.ico</icon>
+    <link href="http://blog.saiodgm.gq" />
     <author>
       <name>Saiodgm</name>
     </author>
     <updated>2022-04-05T05:46:24.000Z</updated>
     <entry>
-        <id>http://shoka.saiodgm.gq/junior-high-school/phycisc/Circuit-diagram/</id>
+        <id>http://blog.saiodgm.gq/junior-high-school/phycisc/Circuit-diagram/</id>
         <title>电路图</title>
-        <link rel="alternate" href="http://shoka.saiodgm.gq/junior-high-school/phycisc/Circuit-diagram/"/>
+        <link rel="alternate" href="http://blog.saiodgm.gq/junior-high-school/phycisc/Circuit-diagram/"/>
         <content type="html">&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
 &lt;p&gt;这是这个系列的第一篇文章，所以笔者有一些要瞎 bb 的东西，不看也罢。&lt;/p&gt;
 &lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;点击展开 qwq&lt;/summary&gt;&lt;div&gt;
@@ -31,15 +31,15 @@
 &lt;p&gt;这样一来，我们就找到了摩擦起电的条件：&lt;strong&gt;必须是两个不同的物质在摩擦。&lt;/strong&gt; 如果是同种物质，那原子核对电子的束缚能力是一样的，也就不存在什么电荷转移了。另外还有就是：&lt;/p&gt;
 &lt;p&gt;&lt;ins class=&#34;dot&#34;&gt;&lt;strong&gt;注意，因为是电子在逃跑，所以摩擦起电是负电荷在转移，正电荷不能动，切记！&lt;/strong&gt;&lt;/ins&gt;（单独成段以表示郑重）&lt;/p&gt;
 </content>
-        <category term="初中综合课程" scheme="http://shoka.saiodgm.gq/categories/junior-high-school/" />
-        <category term="Phycisc" scheme="http://shoka.saiodgm.gq/categories/junior-high-school/Phycisc/" />
-        <category term="物理电学" scheme="http://shoka.saiodgm.gq/tags/%E7%89%A9%E7%90%86%E7%94%B5%E5%AD%A6/" />
+        <category term="初中综合课程" scheme="http://blog.saiodgm.gq/categories/junior-high-school/" />
+        <category term="Phycisc" scheme="http://blog.saiodgm.gq/categories/junior-high-school/Phycisc/" />
+        <category term="物理电学" scheme="http://blog.saiodgm.gq/tags/%E7%89%A9%E7%90%86%E7%94%B5%E5%AD%A6/" />
         <updated>2022-04-05T05:46:24.000Z</updated>
     </entry>
     <entry>
-        <id>http://shoka.saiodgm.gq/hello-world/</id>
+        <id>http://blog.saiodgm.gq/hello-world/</id>
         <title>Hello World</title>
-        <link rel="alternate" href="http://shoka.saiodgm.gq/hello-world/"/>
+        <link rel="alternate" href="http://blog.saiodgm.gq/hello-world/"/>
         <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;

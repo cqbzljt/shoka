@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://shoka.saiodgm.gq/about/</loc>
+    <loc>http://blog.saiodgm.gq/about/</loc>
     
     <lastmod>2022-04-11</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://shoka.saiodgm.gq/friends/</loc>
+    <loc>http://blog.saiodgm.gq/friends/</loc>
     
     <lastmod>2022-04-10</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://shoka.saiodgm.gq/junior-high-school/phycisc/Circuit-diagram/</loc>
+    <loc>http://blog.saiodgm.gq/junior-high-school/phycisc/Circuit-diagram/</loc>
     
     <lastmod>2022-04-05</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://shoka.saiodgm.gq/hello-world/</loc>
+    <loc>http://blog.saiodgm.gq/hello-world/</loc>
     
     <lastmod>2022-04-01</lastmod>
     
@@ -39,16 +39,16 @@
   
 
   <url>
-    <loc>http://shoka.saiodgm.gq/</loc>
-    <lastmod>2022-04-11</lastmod>
+    <loc>http://blog.saiodgm.gq/</loc>
+    <lastmod>2022-04-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://shoka.saiodgm.gq/tags/%E7%89%A9%E7%90%86%E7%94%B5%E5%AD%A6/</loc>
-    <lastmod>2022-04-11</lastmod>
+    <loc>http://blog.saiodgm.gq/tags/%E7%89%A9%E7%90%86%E7%94%B5%E5%AD%A6/</loc>
+    <lastmod>2022-04-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -56,15 +56,15 @@
 
   
   <url>
-    <loc>http://shoka.saiodgm.gq/categories/junior-high-school/</loc>
-    <lastmod>2022-04-11</lastmod>
+    <loc>http://blog.saiodgm.gq/categories/junior-high-school/</loc>
+    <lastmod>2022-04-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://shoka.saiodgm.gq/categories/junior-high-school/Phycisc/</loc>
-    <lastmod>2022-04-11</lastmod>
+    <loc>http://blog.saiodgm.gq/categories/junior-high-school/Phycisc/</loc>
+    <lastmod>2022-04-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

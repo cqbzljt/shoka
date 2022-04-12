@@ -2,13 +2,13 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Saiodgmの小窝",
     "subtitle": "QwQ",
-    "icon": "http://shoka.saiodgm.gq/images/favicon.ico",
+    "icon": "http://blog.saiodgm.gq/images/favicon.ico",
     "description": "",
-    "home_page_url": "http://shoka.saiodgm.gq",
+    "home_page_url": "http://blog.saiodgm.gq",
     "items": [
         {
-            "id": "http://shoka.saiodgm.gq/junior-high-school/phycisc/Circuit-diagram/",
-            "url": "http://shoka.saiodgm.gq/junior-high-school/phycisc/Circuit-diagram/",
+            "id": "http://blog.saiodgm.gq/junior-high-school/phycisc/Circuit-diagram/",
+            "url": "http://blog.saiodgm.gq/junior-high-school/phycisc/Circuit-diagram/",
             "title": "电路图",
             "date_published": "2022-04-05T05:46:24.000Z",
             "content_html": "<h2 id=\"前言\"><a class=\"anchor\" href=\"#前言\">#</a> 前言</h2>\n<p>这是这个系列的第一篇文章，所以笔者有一些要瞎 bb 的东西，不看也罢。</p>\n<details class=\"primary\"><summary>点击展开 qwq</summary><div>\n<p>（2022.04.05）</p>\n<p>u1s1，笔者的物理虽然还看得过去，但是从机械开始就感觉有点问题了，到了电学就基本上来不起了 QAQ，再鉴于我们的物理老师 ZYX 讲得还不错，所以我会把他的一些思考，讲的一些不太好记在笔记本上的东西写在这里。</p>\n<p><s>其实这也是 ZYX 布置的作业之一啦，只是我懒得在笔记本上写那么多字，所以笔记本上只有知识框架，详细的思考和理解方式就记在这个上面了。</s></p>\n<p>至于行文风格，因为笔者是一位在役 OIer，所以风格会比较偏向于 OI 的那种博客。这种风格的弊端比较明显，就是框架没那么清晰，比较类似于那种科普文章。所以，还是不要放下手中的笔记本呀！</p>\n<p>废话不多说，LET'S START!</p>\n</div></details>\n<hr />\n<h2 id=\"摩擦起电\"><a class=\"anchor\" href=\"#摩擦起电\">#</a> 摩擦起电</h2>\n<p>首先作为一位之前从来没上接触过电学的人<s>才怪嘞，初一已经拉完一遍了，初二再拉一遍可还行</s>，我们先要来了解一下电到底是什么玩意儿。</p>\n<p>首先各位同学都知道，物质是由分子和原子组成的，分子又是由原子组成的。原子的结构类似于太阳系，中间围着的是原子核，在它周围运动的是核外电子。而我们都知道，原子核里的质子带正电，中子不带电，所以原子核带正电；核外电子带负电。一个<strong>正常的</strong>原子中这俩东西的值一样大，抵消了，所以原子不显电性。</p>\n<p>而我们又知道，原子核像太阳系里的太阳一样，把电子束缚在自己周围运动（ZYX：核外电子的运动不是绕核运动，而是没有规律的，这个仅作为了解），所以就存在一个问题：有些原子核对自己的电子束缚能力太弱了，所以只要外界给一点条件，就会离开先前的原子核逃跑。</p>\n<p>两个物体摩擦的时候，会生热，一生热，电子的运动就比之前更剧烈，某些原子核束缚不住旁边的电子了，于是电子纷纷逃离之前的宿主，变成了自由电荷。但是它们要跑到哪里呢？如果此时它们旁边有对电子束缚能力更强的原子核，它们就会找到新的宿主，围着它运动。这样一来，电子逃跑的那个原子负电荷少了，显出了正电；多束缚电子的原子负电荷多了，显出了负电。</p>\n<p>这样一来，我们就找到了摩擦起电的条件：<strong>必须是两个不同的物质在摩擦。</strong> 如果是同种物质，那原子核对电子的束缚能力是一样的，也就不存在什么电荷转移了。另外还有就是：</p>\n<p><ins class=\"dot\"><strong>注意，因为是电子在逃跑，所以摩擦起电是负电荷在转移，正电荷不能动，切记！</strong></ins>（单独成段以表示郑重）</p>\n",
@@ -19,8 +19,8 @@
             ]
         },
         {
-            "id": "http://shoka.saiodgm.gq/hello-world/",
-            "url": "http://shoka.saiodgm.gq/hello-world/",
+            "id": "http://blog.saiodgm.gq/hello-world/",
+            "url": "http://blog.saiodgm.gq/hello-world/",
             "title": "Hello World",
             "date_published": "2022-04-01T14:42:12.176Z",
             "content_html": "<p>Welcome to <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvLw==\">Hexo</span>! This is your very first post. Check <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv\">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=\">troubleshooting</span> or you can ask me on <span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==\">GitHub</span>.</p>\n<h2 id=\"quick-start\"><a class=\"anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo new <span class=\"token string\">\"My New Post\"</span></pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s\">Writing</span></p>\n<h3 id=\"run-server\"><a class=\"anchor\" href=\"#run-server\">#</a> Run server</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=\">Server</span></p>\n<h3 id=\"generate-static-files\"><a class=\"anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s\">Generating</span></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s\">Deployment</span></p>\n",
