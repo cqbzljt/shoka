@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>Saiodgmの小窝</title>
-        <subtitle>QwQ</subtitle>
+        <subtitle>那些消失在岁月长河里的人和事，还有一些一些的美丽，都化着点滴斑斓，飞散在这个季节深处。</subtitle>
         <icon>http://blog.saiodgm.gq/images/favicon.ico</icon>
         <link>http://blog.saiodgm.gq</link>
         <author>
@@ -10,8 +10,96 @@
         </author>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Tue, 05 Apr 2022 13:46:24 +0800</pubDate>
-        <lastBuildDate>Tue, 05 Apr 2022 13:46:24 +0800</lastBuildDate>
+        <pubDate>Wed, 13 Apr 2022 22:31:23 +0800</pubDate>
+        <lastBuildDate>Wed, 13 Apr 2022 22:31:23 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://blog.saiodgm.gq/course/about-website/how-to-make-a-static-page/</guid>
+            <title>使用 GitHub 制作一个静态页面</title>
+            <link>http://blog.saiodgm.gq/course/about-website/how-to-make-a-static-page/</link>
+            <category term="杂谈教程" scheme="http://blog.saiodgm.gq/categories/course/" />
+            <category term="网站搭建" scheme="http://blog.saiodgm.gq/categories/course/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/" />
+            <category term="GitHub" scheme="http://blog.saiodgm.gq/tags/GitHub/" />
+            <category term="Website" scheme="http://blog.saiodgm.gq/tags/Website/" />
+            <pubDate>Wed, 13 Apr 2022 22:31:23 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;什么是静态页面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是静态页面&#34;&gt;#&lt;/a&gt; 什么是静态页面？&lt;/h1&gt;
+&lt;p&gt;如果一个页面没有服务器的话，那这就是一个静态页面。这个页面的源代码是事先写好的，只能由作者手动改变，不能根据访客的活动改变。这一篇文章，我们将通过把网站源代码托管在 GitHub 的方式制作一个属于自己的静态页面。&lt;/p&gt;
+&lt;p&gt;博主的系统：Win10。不同系统教程可能会有出入，请留意。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;step-1-把源代码存在-github-上&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-1-把源代码存在-github-上&#34;&gt;#&lt;/a&gt; Step 1. 把源代码存在 GitHub 上&lt;/h1&gt;
+&lt;h2 id=&#34;前置工作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前置工作&#34;&gt;#&lt;/a&gt; 前置工作&lt;/h2&gt;
+&lt;p&gt;请根据自己的电脑配置下载最新版的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZHM=&#34;&gt;Git&lt;/span&gt;。&lt;/p&gt;
+&lt;p&gt;下载的时候一路默认就可以了。&lt;/p&gt;
+&lt;h2 id=&#34;注册-github-账号&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注册-github-账号&#34;&gt;#&lt;/a&gt; 注册 GitHub 账号&lt;/h2&gt;
+&lt;p&gt;如果您已经有了可以直接跳过。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;进入 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tLw==&#34;&gt;GitHub&lt;/span&gt;，点击右上角的  &lt;code&gt;Sign up&lt;/code&gt; 。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://unpkg.com/saiodgm-files@latest/how-to-make-a-static-page-1-01-01.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;GitHub 的主机在美国，能不能登上去要看运气。如果访问不了的话请稍等一会儿再试。&lt;/p&gt;
+&lt;/div&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;此时进入了注册页面，按照它的提示一步一步来即可。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://unpkg.com/saiodgm-files@latest/how-to-make-a-static-page-1-01-02.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;注册的邮箱最好用国外服务商的，QQ 也行，且注册完毕后需要等一会儿才能生效。&lt;/p&gt;
+&lt;/div&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;填写完信息之后，你需要从邮箱接一个验证码输进去。&lt;/li&gt;
+&lt;li&gt;接下来进入了一个页面，您可以直接划到最底下点击  &lt;code&gt;Skip personalization&lt;/code&gt;  跳过，也可以设置。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;新建仓库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新建仓库&#34;&gt;#&lt;/a&gt; 新建仓库&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;登录进来之后，点击右上角您的头像，然后点击列表中的  &lt;code&gt;Your repositories&lt;/code&gt; 。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://unpkg.com/saiodgm-files@latest/how-to-make-a-static-page-1-01-03.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;点击右上角的  &lt;code&gt;New&lt;/code&gt; ，填写仓库信息：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://unpkg.com/saiodgm-files@latest/how-to-make-a-static-page-1-01-04.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;关于仓库名：&lt;br /&gt;
+有教程说必须以  &lt;code&gt;[username].github.io&lt;/code&gt;  为仓库名，其实不一定，只是说，如果您以  &lt;code&gt;[username].github.io&lt;/code&gt;  为仓库名，那么您访问页面的链接将是  &lt;code&gt;https://[username].github.io&lt;/code&gt; ；如果不是，那将是  &lt;code&gt;https://[username].github.io/您取的仓库名/&lt;/code&gt; 。&lt;/p&gt;
+&lt;/div&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;在您的电脑里找一个合适的位置存放静态页面的文件，&lt;strong&gt;并保证此文件夹内没有其他多余文件&lt;/strong&gt;，比如  &lt;code&gt;D:\Website\HTML\course\&lt;/code&gt; ，&lt;strong&gt;此后的教程后会使用  &lt;code&gt;[Pageroot]&lt;/code&gt;  代替这个地址。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;关于  &lt;code&gt;[Pageroot]&lt;/code&gt;  文件夹的配置。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;口胡了一张很不专业的图方便大家理解：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[Pageroot]
+├──index.html ----- (1)
+└──post
+    ├──index.html ----- (2)
+    ├──img1.jpg
+    ├──img2.jpg
+    └──qwq
+    |   └──index.html ----- (3)
+    └──qaq
+        ├──css1.css
+        ├──css2.css
+        └──qvq
+            └──index.html ----- (4)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;假如您的仓库名是  &lt;code&gt;[username].github.io&lt;/code&gt; ，那么  &lt;code&gt;https://[username].github.io&lt;/code&gt;  显示的内容就是  &lt;code&gt;index.html(1)&lt;/code&gt; ，而  &lt;code&gt;https://[username].github.io/post/&lt;/code&gt;  显示的内容就是  &lt;code&gt;index.html(2)&lt;/code&gt; 。 &lt;code&gt;https://[username].github.io/qaq/&lt;/code&gt;  是不存在的，因为这个文件夹里面没有  &lt;code&gt;index.html&lt;/code&gt; ，但是  &lt;code&gt;https://[username].github.io/qaq/qvq/&lt;/code&gt;  是存在的。&lt;/p&gt;
+&lt;p&gt;当然，您可以在任意一个  &lt;code&gt;index.html&lt;/code&gt;  里使用相对地址引用其它文件，比如  &lt;code&gt;/post/img1.jpg&lt;/code&gt;  或者是  &lt;code&gt;/qaq/css1.css&lt;/code&gt; 。&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;初始化 Git。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;随便找个地方右键，点击  &lt;code&gt;Git Bash Here&lt;/code&gt; ，依次输入如下指令：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; config --global user.name &lt;span class=&#34;token string&#34;&gt;&#34;您的 GitHub 用户名&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; config --global user.email &lt;span class=&#34;token string&#34;&gt;&#34;您注册 GitHub 的邮箱&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ssh-keygen -t rsa -C &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;您注册 GitHub 的邮箱&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;less&lt;/span&gt; ~/.ssh/id_rsa.pub&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;然后终端就会冒出来一串奇妙的乱码，记得把它复制下来。&lt;/p&gt;
+&lt;p&gt;进入 GitHub，点击右上角头像，在下面出来的菜单中找到  &lt;code&gt;Settings&lt;/code&gt; ，点进去找到  &lt;code&gt;SSH and GPG keys&lt;/code&gt; ，再点击  &lt;code&gt;New SSH key&lt;/code&gt; ， &lt;code&gt;Title&lt;/code&gt;  随便取一个，然后把刚才复制的那一堆东西复制到  &lt;code&gt;Key&lt;/code&gt;  里面，最后点击下面的  &lt;code&gt;Add SSH key&lt;/code&gt;  即可。&lt;/p&gt;
+&lt;p&gt;（这一步不知道为什么没有图 qwq）&lt;/p&gt;
+&lt;p&gt;接着继续在 Git Bash 里面运行：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ssh&lt;/span&gt; -T git@github.com&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;如果得到的输出是：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;The authenticity of &lt;span class=&#34;token function&#34;&gt;host&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;github.com (207.97.227.239)&#39;&lt;/span&gt; can&#39;t be established.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;RSA key fingerprint is &lt;span class=&#34;token number&#34;&gt;16&lt;/span&gt;:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Are you sure you want to &lt;span class=&#34;token builtin class-name&#34;&gt;continue&lt;/span&gt; connecting &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;yes/no&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;?&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;那就说明您配置成功了。&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://blog.saiodgm.gq/junior-high-school/phycisc/Circuit-diagram/</guid>
             <title>电路图</title>
