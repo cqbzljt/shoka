@@ -56,6 +56,13 @@
 
   
   <url>
+    <loc>http://blog.saiodgm.gq/tags/%E7%89%A9%E7%90%86%E7%94%B5%E5%AD%A6/</loc>
+    <lastmod>2022-05-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.saiodgm.gq/tags/GitHub/</loc>
     <lastmod>2022-05-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -69,21 +76,7 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>http://blog.saiodgm.gq/tags/%E7%89%A9%E7%90%86%E7%94%B5%E5%AD%A6/</loc>
-    <lastmod>2022-05-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
-  
-  <url>
-    <loc>http://blog.saiodgm.gq/categories/course/</loc>
-    <lastmod>2022-05-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>http://blog.saiodgm.gq/categories/junior-high-school/</loc>
@@ -93,7 +86,7 @@
   </url>
   
   <url>
-    <loc>http://blog.saiodgm.gq/categories/course/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</loc>
+    <loc>http://blog.saiodgm.gq/categories/course/</loc>
     <lastmod>2022-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -101,6 +94,13 @@
   
   <url>
     <loc>http://blog.saiodgm.gq/categories/junior-high-school/Phycisc/</loc>
+    <lastmod>2022-05-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.saiodgm.gq/categories/course/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2022-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
