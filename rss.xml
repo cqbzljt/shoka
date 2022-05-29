@@ -10,8 +10,68 @@
         </author>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Wed, 13 Apr 2022 22:31:23 +0800</pubDate>
-        <lastBuildDate>Wed, 13 Apr 2022 22:31:23 +0800</lastBuildDate>
+        <pubDate>Sun, 29 May 2022 10:27:29 +0800</pubDate>
+        <lastBuildDate>Sun, 29 May 2022 10:27:29 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://blog.saiodgm.gq/course/extensions/how-to-use-Gooreplacer/</guid>
+            <title>Gooreplacer の 妙用</title>
+            <link>http://blog.saiodgm.gq/course/extensions/how-to-use-Gooreplacer/</link>
+            <category term="杂谈教程" scheme="http://blog.saiodgm.gq/categories/course/" />
+            <category term="Edge" scheme="http://blog.saiodgm.gq/categories/course/Edge/" />
+            <category term="浏览器扩展推荐" scheme="http://blog.saiodgm.gq/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95%E6%8E%A8%E8%8D%90/" />
+            <pubDate>Sun, 29 May 2022 10:27:29 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
+&lt;p&gt;话说  &lt;code&gt;cdn.jsdelivr.net&lt;/code&gt;  早在 2021.12.20 就在国内死掉了，当时各种解决办法的文章层出不穷，我也就不细说了。但是这依然解决不了我们日常使用的问题，毕竟作为 Web 维运者，我们虽然可以把自己的网站的 CDN 换了，但是还有很多网站（特别是国外的网站）还是用的 JSD，导致我们要正常访问只能挂梯子，体验感及其不佳。&lt;/p&gt;
+&lt;p&gt;另外，对于 Web 维运者来说，虽然我们可以换其它 CDN，但是据我所知其它的 CDN 只支持 NPM 的加速，所以对于  &lt;code&gt;/gh/&lt;/code&gt;  和  &lt;code&gt;/combine/&lt;/code&gt;  之类的链接我们只能本地化，BUT，对于白嫖党来说，本地那个速度真的是一言难尽，&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;甚至比 JSD 还要慢&lt;/span&gt;。&lt;/p&gt;
+&lt;p&gt;后来  &lt;code&gt;fastly.jsdelivr.net&lt;/code&gt;  在国内可以正常访问了，成为了  &lt;code&gt;cdn.jsdelivr.net&lt;/code&gt;  在国内的替代，&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;虽然速度很着急&lt;/span&gt;，但总比没有强嘛。&lt;/p&gt;
+&lt;p&gt;那我们该如何充分利用这个国内替代品呢？&lt;/p&gt;
+&lt;p&gt;本文将介绍使用浏览器扩展 Gooreplacer 的重定向功能，使我们网上冲浪的体验感更好。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装&#34;&gt;#&lt;/a&gt; 安装&lt;/h1&gt;
+&lt;h2 id=&#34;对于上得去浏览器扩展市场的童鞋&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#对于上得去浏览器扩展市场的童鞋&#34;&gt;#&lt;/a&gt; 对于上得去浏览器扩展市场的童鞋&lt;/h2&gt;
+&lt;p&gt;直接在浏览器扩展市场搜索  &lt;code&gt;Gooreplacer&lt;/code&gt;  安装即可。&lt;/p&gt;
+&lt;h2 id=&#34;对于上不去浏览器扩展市场的童鞋&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#对于上不去浏览器扩展市场的童鞋&#34;&gt;#&lt;/a&gt; 对于上不去浏览器扩展市场的童鞋&lt;/h2&gt;
+&lt;h3 id=&#34;方案一&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方案一&#34;&gt;#&lt;/a&gt; 方案一&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2ppYWNhaTIwNTAvZ29vcmVwbGFjZXI=&#34;&gt;这里&lt;/span&gt;是 Gooreplacer 的源代码地址，进入  &lt;code&gt;Releases&lt;/code&gt; ，找到最新版本的 &lt;strong&gt; &lt;code&gt;chrome_gooreplacer_xxxxxxxxxx.zip&lt;/code&gt; &lt;/strong&gt; 或者是 &lt;strong&gt; &lt;code&gt;firefox_gooreplacer_xxxxxxxxxx.zip&lt;/code&gt; &lt;/strong&gt; 点击下载。&lt;ins class=&#34;dot&#34;&gt;注意不是 Source Code！&lt;/ins&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;下载速度太慢的解决办法&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;PS：如果 GitHub 速度太慢了，可以右键复制链接，然后把链接里的  &lt;code&gt;github.com&lt;/code&gt;  换成  &lt;code&gt;hub.fastgit.xyz&lt;/code&gt;  再回车。&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;把下载下来的压缩包解压。&lt;/li&gt;
+&lt;li&gt;打开浏览器的扩展页面，打开开发者模式，选择  &lt;code&gt;加载解压缩的扩展&lt;/code&gt; （各个浏览器可能会有差别，不过应该都差不多吧），选择刚才解压下来的文件夹即可。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;方案二&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方案二&#34;&gt;#&lt;/a&gt; 方案二&lt;/h3&gt;
+&lt;p&gt;国内其实有一些提供浏览器插件的网站，比如说&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY2hyb21lNjY2LmNvbS8=&#34;&gt;这个&lt;/span&gt;。您可以直接搜索下载想要的浏览器插件。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;搜索  &lt;code&gt;Gooreplacer&lt;/code&gt;  并下载  &lt;code&gt;crx&lt;/code&gt;  文件。&lt;/li&gt;
+&lt;li&gt;这个时候（如果是 Chrome 的话）会提示您 “无法从此网站添加扩展”。这时直接在本地找到这个被下载下来的文件，然后把后缀名从  &lt;code&gt;crx&lt;/code&gt;  改成  &lt;code&gt;zip&lt;/code&gt; ，得到压缩包。&lt;/li&gt;
+&lt;li&gt;同方案一的 2、3。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;开始使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开始使用&#34;&gt;#&lt;/a&gt; 开始使用&lt;/h1&gt;
+&lt;p&gt;折腾了半天，终于把插件下下来了，果然天朝的网络状况就是那样。让我们仔细端详端详这个插件：&lt;/p&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;废话文学就可以不看了 qwq&lt;/summary&gt;&lt;div&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;Goo&lt;/code&gt;  说明了两点，&lt;s&gt;一是指作者很咕咕咕（其实并没有）&lt;/s&gt;，二是可以让我们想到 Google，也体现了作者开发这个扩展的最初目的就是为了帮助国内的同学们访问 Google 的资源。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;replace&lt;/code&gt;  的意思是代替，在一个词之后加上  &lt;code&gt;-er&lt;/code&gt;  说明这是一个人，那么就可以看出这个扩展的原理：用一个资源代替另一个。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;p&gt;好的，现在就让我们点击右上角的橙色小刷子，进入这个插件的设置页面。如果您发现这个页面的显示有点奇怪也不要害怕，这只是因为 JSD 上的 CSS 挂了，功能不受影响。&lt;/p&gt;
+&lt;p&gt;点击  &lt;code&gt;重定向&lt;/code&gt; ，然后点  &lt;code&gt;新增&lt;/code&gt; ，在匹配模式里填上  &lt;code&gt;cdn.jsdelivr.net&lt;/code&gt; ，匹配类型选择  &lt;code&gt;通配符&lt;/code&gt; ，目标地址写  &lt;code&gt;fastly.jsdelivr.net&lt;/code&gt; ，是否开启处打勾，最后点确定。&lt;/p&gt;
+&lt;p&gt;这个重定向的规则就是把  &lt;code&gt;cdn.jsdelivr.net/...&lt;/code&gt;  重定向到  &lt;code&gt;fastly.jsdelivr.net/...&lt;/code&gt; ，以此让国内的同学们也可以快乐地网上冲浪。&lt;/p&gt;
+&lt;p&gt;现在，页面显示不正常的同学们在刷新一下，是不是好了？&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;当然除了重定向 JSD 之外，您也可以用这个重定向功能进行一些其它的操作。&lt;/p&gt;
+&lt;p&gt;比如笔者的好朋友 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly94c2MwNjIuZ2l0ZWUuaW8=&#34;&gt;XSC062&lt;/span&gt; 就曾经写过一篇教程 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubHVvZ3UuY29tLmNuL3Bhc3RlL2pxM25scHd1&#34;&gt;《我应该如何注册 SPOJ？》&lt;/span&gt;，这一篇教程实际上也是利用 Gooreplacer 的重定向功能使得我们可以使用 Recaptcha。&lt;/p&gt;
+&lt;p&gt;插件原作者也在 GitHub 的 README 里面给出了他写的 json，是把一些 Google 的资源重定向到了国内的镜像，以此来访问一些本来访问不了的东西。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;后记&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#后记&#34;&gt;#&lt;/a&gt; 后记&lt;/h1&gt;
+&lt;p&gt;除了重定向之外 Gooreplacer 还有另外一些功能，但是笔者不常用所以就没介绍了。大家可以自己去探索。&lt;/p&gt;
+&lt;p&gt;有什么问题可以评论区问我，正常情况下我会在一天之内回复的。&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://blog.saiodgm.gq/course/about-website/how-to-make-a-static-page/</guid>
             <title>使用 GitHub 制作一个静态页面</title>
