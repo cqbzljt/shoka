@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.saiodgm.gq/fcircle/</loc>
+    
+    <lastmod>2022-06-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.saiodgm.gq/course/about-website/how-to-make-a-static-page/</loc>
+    
+    <lastmod>2022-05-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.saiodgm.gq/course/extensions/how-to-use-Gooreplacer/</loc>
     
     <lastmod>2022-05-29</lastmod>
@@ -21,15 +39,6 @@
   
   <url>
     <loc>http://blog.saiodgm.gq/about/</loc>
-    
-    <lastmod>2022-05-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.saiodgm.gq/course/about-website/how-to-make-a-static-page/</loc>
     
     <lastmod>2022-05-28</lastmod>
     
@@ -58,7 +67,7 @@
 
   <url>
     <loc>http://blog.saiodgm.gq/</loc>
-    <lastmod>2022-05-29</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -66,28 +75,28 @@
   
   <url>
     <loc>http://blog.saiodgm.gq/tags/%E7%89%A9%E7%90%86%E7%94%B5%E5%AD%A6/</loc>
-    <lastmod>2022-05-29</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.saiodgm.gq/tags/GitHub/</loc>
-    <lastmod>2022-05-29</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.saiodgm.gq/tags/Website/</loc>
-    <lastmod>2022-05-29</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.saiodgm.gq/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95%E6%8E%A8%E8%8D%90/</loc>
-    <lastmod>2022-05-29</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -96,35 +105,35 @@
   
   <url>
     <loc>http://blog.saiodgm.gq/categories/junior-high-school/</loc>
-    <lastmod>2022-05-29</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.saiodgm.gq/categories/course/</loc>
-    <lastmod>2022-05-29</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.saiodgm.gq/categories/junior-high-school/Phycisc/</loc>
-    <lastmod>2022-05-29</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.saiodgm.gq/categories/course/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2022-05-29</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.saiodgm.gq/categories/course/Edge/</loc>
-    <lastmod>2022-05-29</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
